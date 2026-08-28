@@ -17,7 +17,7 @@ sem visibilidade em tempo real e sem histórico de movimentações.
 - SQL Server
 - Power BI
 - Python
-- 
+  
 # Integração com Sistema de Chamados
 O sistema também se integra ao banco de dados de chamados de TI existente,
 permitindo visualização centralizada das informações do setor.
