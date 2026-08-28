@@ -1,29 +1,34 @@
-# Sistema de Controle de Estoque e Chamados TI - Hospital
+# Sistema de Controle de Estoque TI - Hospital
 
 # Sobre o Projeto
-Solução desenvolvida para substituir o controle manual em planilhas Excel 
-por um sistema integrado com banco de dados e dashboard interativo.
+Sistema desenvolvido para modernizar o controle de estoque de toners e 
+cilindros do setor de TI hospitalar, substituindo planilhas Excel por uma 
+solução integrada com banco de dados e dashboard interativo.
 
 # Problema
-O setor de TI controlava o estoque de toners e cilindros em planilhas, 
-sem visibilidade em tempo real e sem histórico de movimentações.
+O estoque era controlado via Excel, o que gerava:
+- Dificuldade em acompanhar movimentações em tempo real
+- Funcionários esqueciam de registrar movimentações
+- Falta de padronização nos dados
 
 # Solução
-- Banco de dados relacional no SQL Server
-- Dashboard interativo no Power BI
-- Sistema web para operação do estoque e chamados.
+- **Banco de dados relacional** no SQL Server com regras de integridade
+- **Sistema web** para registro padronizado das movimentações
+- **Dashboard no Power BI** para visualização em tempo real
+- **Integração** com o sistema de chamados do setor
+
+# Resultados
+- Ambiente visual prático e intuitivo para o time
+- Contagem e organização automática do estoque
+- Histórico completo de movimentações
+- Visibilidade em tempo real do estoque disponível
 
 # Tecnologias
 - SQL Server
 - Power BI
 - Python
-  
-# Integração com Sistema de Chamados
-O sistema também se integra ao banco de dados de chamados de TI existente,
-permitindo visualização centralizada das informações do setor.
 
-# Dashboard
-<img width="1316" height="735" alt="image" src="https://github.com/user-attachments/assets/56ff5cf6-41ef-44f5-b3b2-6b0d4a7b898a" />
-
-<img width="1316" height="742" alt="image" src="https://github.com/user-attachments/assets/2c344223-2c83-41cb-962e-d407e96e459b" />
-
+# Estrutura do Projeto
+- `/sql` — Scripts de criação do banco de dados
+- `/dashboard` — Dashboard Power BI
+- `/sistema` — Sistema web de gestão
