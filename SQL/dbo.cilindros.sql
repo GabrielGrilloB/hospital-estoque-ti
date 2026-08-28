@@ -1,0 +1,21 @@
+USE [estoqueti]
+GO
+
+/****** Objeto:  Table [dbo].[cilindros]    Data do Script: 28/08/2026 19:07:24 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[cilindros](
+	[cilindroid] [int] NOT NULL,
+	[nome] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[cilindroid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
