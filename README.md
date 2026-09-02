@@ -11,8 +11,7 @@ Os dados utilizados nesse projeto estão distribuídos em 5 tabelas, organizados
 
 O modelo lógico do banco de dados é apresentado no seguinte formato:
 
-[DIAGRAMA.pdf](https://github.com/user-attachments/files/31714220/DIAGRAMA.pdf)
-
+<img width="4000" height="2250" alt="DIAGRAMA_page-0001" src="https://github.com/user-attachments/assets/84e4ff05-fd11-41b3-bb30-c47a22e56654" />
 
 # Utilização
 
@@ -36,23 +35,26 @@ Interface web desenvolvida em Python com Streamlit e Pandas, integrada ao banco 
 <img width="1920" height="900" alt="image" src="https://github.com/user-attachments/assets/2cffe34e-de1b-47ed-88bb-0f5dd0fc77ba" />
 
 # Ferramentas
-• SQL: As consultas foram estruturadas utilizando o SQL SERVER.
+• SQL:As consultas foram estruturadas utilizando o SQL SERVER.
+
 • Python: Para o desenvolvimento do sistema utilizando Pandas e Streamlit, e realizar a conexão com o SQL SERVER.
+
 • Microsoft Power BI: O dashboard do projeto foi construído com o uso do software, com a necessidade da criação de algumas funções em DAX para a construção das visualizações.
+
 • Microsoft PowerPoint: Construção do layout visual da apresentação.
 
 # Perguntas Respondidas pelos Dados
-1. Qual toner é mais consumido pelo hospital?
+# 1. Qual toner é mais consumido pelo hospital?
 O TN780/750 lidera com 104 saídas, representando 35,37% do consumo total. Junto com o TNB021 (45 saídas) e TN3492 (51 saídas), os três modelos somam mais de 68% de todo o consumo.
 
-2. Qual setor mais consome suprimentos de impressão?
+# 2. Qual setor mais consome suprimentos de impressão?
 O Centro Cirúrgico é o setor com maior consumo, tanto de toners quanto de cilindros, com aproximadamente 38 saídas em cada categoria — reflexo da alta demanda de documentação clínica.
 
-3. Qual a média mensal de saídas de toners e cilindros?
+# 3. Qual a média mensal de saídas de toners e cilindros?
 O hospital retira em média 6,89 toners e 3,03 cilindros por mês, totalizando aproximadamente 10 suprimentos mensais.
 
-4. Como evoluiu o consumo ao longo do tempo?
+# 4. Como evoluiu o consumo ao longo do tempo?
 O consumo de toners apresentou crescimento consistente, com pico de 21 saídas em agosto de 2026, indicando aumento da demanda operacional do hospital no período.
 
-5. Qual o estoque atual de suprimentos?
+# 5. Qual o estoque atual de suprimentos?
 O hospital possui saldo de 28 toners e 18 cilindros. O TNB021 tem o maior estoque de toners (7 unidades), enquanto o DR 750/720 lidera entre os cilindros (6 unidades).
